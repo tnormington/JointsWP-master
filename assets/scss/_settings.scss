@@ -281,7 +281,7 @@ $paragraph-line-height: 1.8;
 
 // We use these to style anchors
 // $anchor-text-decoration: none;
-$anchor-text-decoration-hover: underline;
+$anchor-text-decoration-hover: none;
 $anchor-font-color: $lightblue;
 $anchor-font-color-hover: scale-color($anchor-font-color, $lightness: -14%);
 

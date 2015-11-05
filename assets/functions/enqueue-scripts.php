@@ -6,22 +6,28 @@ function joints_scripts_and_styles() {
 
 	// Removes WP version of jQuery
 	wp_deregister_script('jquery');
-	
+
 	// Loads jQuery from bower_components
     wp_enqueue_script( 'jquery', get_template_directory_uri() . '/bower_components/foundation/js/vendor/jquery.js', array(), '2.1.3', true );
-    
+
     // Modernizr from bower_components
     wp_enqueue_script( 'modernizr', get_template_directory_uri() . '/bower_components/foundation/js/vendor/modernizr.js', array(), '2.8.3', true );
-    
+
     // Adding Foundation scripts file in the footer
-   wp_enqueue_script( 'foundation-js', get_template_directory_uri() . '/assets/js/min/foundation.min.js', array( 'jquery' ), '', true );
-    
+    wp_enqueue_script( 'foundation-js', get_template_directory_uri() . '/assets/js/min/foundation.min.js', array( 'jquery' ), '', true );
+
     // Adding scripts file in the footer
     wp_enqueue_script( 'site-js', get_template_directory_uri() . '/assets/js/min/scripts.js', array( 'jquery' ), '', true );
-   
+
     // Register main stylesheet
     wp_enqueue_style( 'site-css', get_template_directory_uri() . '/assets/css/style.css', array(), '', 'all' );
-    
+
+    // Register fontawesome stylesheet
+    wp_enqueue_style( 'fa-css', get_template_directory_uri() . '/assets/css/font-awesome.min.css', array(), '', 'all' );
+
+    // Register fontawesome animations stylesheet
+    wp_enqueue_style( 'faa-css', get_template_directory_uri() . '/assets/css/faa.min.css', array(), '', 'all' );
+
     // Register foundation icons
     // wp_enqueue_style( 'foundation-icons', get_template_directory_uri() . '/assets/css/icons/foundation-icons.css', array(), '3.0', 'all' );
 

@@ -22,5 +22,4 @@
 		<a href="#" class="back-to-top"><i class="fa fa-chevron-circle-up fa-3x"></i></a>
 	</body>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/min/lightbox.min.js"></script>
-	<!--<script src="<?php echo get_template_directory_uri(); ?>/back-to-top/js/main.js"></script>-->
 </html> <!-- end page -->

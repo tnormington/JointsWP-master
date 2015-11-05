@@ -8386,7 +8386,6 @@ a {
 /* line 222, ../../bower_components/foundation/scss/foundation/components/_type.scss */
 a:hover, a:focus {
   color: #398ed0;
-  text-decoration: underline;
 }
 /* line 230, ../../bower_components/foundation/scss/foundation/components/_type.scss */
 a img {
@@ -11191,14 +11190,15 @@ to display none.
 /* line 426, ../scss/_custom-style.scss */
 .portfolio_projects .project-footer .category {
   color: black;
+  border-bottom: 1px solid #474A59;
 }
-/* line 429, ../scss/_custom-style.scss */
+/* line 430, ../scss/_custom-style.scss */
 .portfolio_projects .project-footer p {
   color: black;
   text-align: center;
 }
 
-/* line 437, ../scss/_custom-style.scss */
+/* line 438, ../scss/_custom-style.scss */
 .macbook-container {
   background-image: url("../images/empty_macbook.png");
   background-repeat: no-repeat;
@@ -11210,77 +11210,42 @@ to display none.
   margin: 0 auto;
   box-sizing: border-box;
 }
-/* line 448, ../scss/_custom-style.scss */
+/* line 449, ../scss/_custom-style.scss */
 .macbook-container .site-image-container {
   max-height: 385px;
   overflow-y: scroll;
   margin: 0 auto;
 }
 
-/* line 455, ../scss/_custom-style.scss */
-#main-port {
-  padding-top: 20px;
-}
 /* line 457, ../scss/_custom-style.scss */
-#main-port .cat-title {
-  color: #796673;
-}
-/* line 461, ../scss/_custom-style.scss */
-#main-port .hide-for-large-up {
+#main .hide-for-large-up {
   border-top: 5px solid #58473F;
 }
-/* line 464, ../scss/_custom-style.scss */
-#main-port article {
+/* line 460, ../scss/_custom-style.scss */
+#main article {
   padding-top: 20px;
 }
-/* line 466, ../scss/_custom-style.scss */
-#main-port article .entry-title {
+/* line 462, ../scss/_custom-style.scss */
+#main article .entry-title {
   text-align: center;
 }
-/* line 469, ../scss/_custom-style.scss */
-#main-port article .entry-content {
+/* line 465, ../scss/_custom-style.scss */
+#main article .entry-content {
   text-align: center;
 }
-/* line 471, ../scss/_custom-style.scss */
-#main-port article .entry-content p {
+/* line 467, ../scss/_custom-style.scss */
+#main article .entry-content p {
   color: black;
   margin-bottom: 0;
 }
-/* line 475, ../scss/_custom-style.scss */
-#main-port article .entry-content a {
+/* line 471, ../scss/_custom-style.scss */
+#main article .entry-content a {
   font-size: 22px;
 }
 
-/* line 483, ../scss/_custom-style.scss */
-#main .portfolio_projects {
-  margin-top: 20px;
-}
-
-/* line 490, ../scss/_custom-style.scss */
-.portfolio_projects .article-header {
-  text-align: center;
-}
-/* line 493, ../scss/_custom-style.scss */
-.portfolio_projects img {
-  border: 0px solid transparent;
-  box-sizing: border-box;
-}
-/* line 497, ../scss/_custom-style.scss */
-.portfolio_projects .entry-content {
-  text-align: center;
-}
-/* line 499, ../scss/_custom-style.scss */
-.portfolio_projects .entry-content p {
-  color: #262024;
-}
-/* line 504, ../scss/_custom-style.scss */
+/* line 480, ../scss/_custom-style.scss */
 .portfolio_projects .project-footer .description {
   text-align: center;
-}
-
-/* line 512, ../scss/_custom-style.scss */
-.hover-img {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* Preload images */
