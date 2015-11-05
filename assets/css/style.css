@@ -11248,6 +11248,11 @@ to display none.
   text-align: center;
 }
 
+/* line 493, ../scss/_custom-style.scss */
+a:active {
+  text-decoration: none;
+}
+
 /* Preload images */
 /* line 2, ../scss/_lightbox.scss */
 body:after {
