@@ -1,0 +1,13 @@
+<div class="row">
+<div class="column medium-4 small-12">
+<p style="text-align: center;"><a href="assets/images/me_500x.jpg"><img class="size-medium wp-image-18 about-picture aligncenter" src="http://localhost/tjn/wp-content/uploads/2015/08/me-300x300.png" alt="Picture of Me" width="300" height="300" /></a></p>
+
+</div>
+<div class="column medium-8 small-12">
+<p style="text-align: left;">My name is Tim Normington, and I am a Graphic Designer. I live in Portland, Oregon and I love the outdoors. I graduated from <a href="http://www.rit.edu/" target="_blank">Rochester Institute of Technology</a> back in 2013 with a degree in 3D Digital Graphics.</p>
+<p style="text-align: left;">Ever since I was a kid I loved creating things, and now that I'm older I love doing it even more. I spend most of my time learning new things about whatever I can sink my brain into.</p>
+<p style="text-align: left;">I make a living designing, creating, and developing digital media and websites as a freelance artist. If you are interested in contacting me, feel free to <a href="mailto:tim.j.normington@gmail.com">shoot me an email.</a></p>
+<p style="text-align: left;"></p>
+
+</div>
+</div>
